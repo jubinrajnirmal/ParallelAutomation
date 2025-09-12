@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 57, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 264.5 s <<< FAILURE! -- in TestSuite
+org.wikipedia.runner.TestNGRunner.runScenario["Verify all available languages in the search dropdown", "Wikipedia Home Page Languages and Dropdowns"](19) -- Time elapsed: 18.07 s <<< FAILURE!
+java.lang.AssertionError: Not all languages were selectable
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable(F2_StepDef.java:54)
+	at ✽.each language option should be selectable(file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:42)
+

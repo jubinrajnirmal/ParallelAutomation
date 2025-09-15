@@ -17,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         publish = true,
         monochrome = true,
-        tags = "not @regression @dropdown @full"
+        tags = "not @regression and not @dropdown and not @full"
 )
 public class TestNGRunner extends AbstractTestNGCucumberTests  {
 	private static ThreadLocal<String> browserName = new ThreadLocal<>();

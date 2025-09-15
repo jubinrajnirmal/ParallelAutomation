@@ -59,9 +59,9 @@ pipeline {
 
                     if (reportLinks && reportLinks.size() >= 3) {
                         env.CUCUMBER_REPORTS = """
-Chrome (✅ all tests passed): ${reportLinks[0]}
-Edge   (✅ all tests passed): ${reportLinks[1]}
-Firefox (⚠️ 1 test failed):  ${reportLinks[2]}
+Chrome  : ${reportLinks[0]}
+Edge    : ${reportLinks[1]}
+Firefox :  ${reportLinks[2]}
 """
                         echo "Found Cucumber reports:\n${env.CUCUMBER_REPORTS}"
                     } else {

@@ -16,8 +16,8 @@ import io.cucumber.testng.CucumberOptions;
                 "junit:target/cucumber-reports.xml"
         },
         publish = true,
-        monochrome = true
-        //tags = "@InvalidLogin and @Login" 
+        monochrome = true,
+        tags = "not @regression @dropdown @full"
 )
 public class TestNGRunner extends AbstractTestNGCucumberTests  {
 	private static ThreadLocal<String> browserName = new ThreadLocal<>();

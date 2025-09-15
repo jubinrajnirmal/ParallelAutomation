@@ -52,7 +52,7 @@ pipeline {
                     def reportLinks = powershell(
                         returnStdout: true,
                         script: """
-                            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/' |
+                            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/[a-z0-9-]+' |
                             ForEach-Object { \$_.Matches.Value }
                         """
                     ).trim().split("\\r?\\n")

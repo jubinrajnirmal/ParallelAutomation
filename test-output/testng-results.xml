@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-12T09:48:21 GMT-04:00" name="CrossBrowserSuite" finished-at="2025-09-12T09:48:51 GMT-04:00" duration-ms="29796">
+  <suite started-at="2025-09-15T10:32:20 GMT-04:00" name="CrossBrowserSuite" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="31756">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -10,9 +10,9 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-12T09:48:21 GMT-04:00" name="ChromeTest" finished-at="2025-09-12T09:48:36 GMT-04:00" duration-ms="15273">
+    <test started-at="2025-09-15T10:32:20 GMT-04:00" name="ChromeTest" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="16939">
       <class name="org.wikipedia.runner.TestNGRunner">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-12T09:48:21 GMT-04:00" name="setBrowser" finished-at="2025-09-12T09:48:21 GMT-04:00" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setBrowser" finished-at="2025-09-15T10:32:20 GMT-04:00" duration-ms="42" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,131 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-12T09:48:21 GMT-04:00" name="setUpClass" finished-at="2025-09-12T09:48:23 GMT-04:00" duration-ms="1619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@29d89d5d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-12T09:48:23 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-12T09:48:30 GMT-04:00" duration-ms="7750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Login on Wikipedia"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-12T09:48:30 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-12T09:48:36 GMT-04:00" duration-ms="5547" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Login on Wikipedia"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-12T09:48:36 GMT-04:00" name="tearDownClass" finished-at="2025-09-12T09:48:36 GMT-04:00" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- org.wikipedia.runner.TestNGRunner -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2025-09-12T09:48:21 GMT-04:00" name="EdgeTest" finished-at="2025-09-12T09:48:36 GMT-04:00" duration-ms="15610">
-      <class name="org.wikipedia.runner.TestNGRunner">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-12T09:48:21 GMT-04:00" name="setBrowser" finished-at="2025-09-12T09:48:21 GMT-04:00" duration-ms="41" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-12T09:48:21 GMT-04:00" name="setUpClass" finished-at="2025-09-12T09:48:23 GMT-04:00" duration-ms="1617" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3514a4c0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-12T09:48:23 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-12T09:48:30 GMT-04:00" duration-ms="7812" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Login on Wikipedia"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-12T09:48:30 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-12T09:48:36 GMT-04:00" duration-ms="5973" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Login on Wikipedia"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-12T09:48:36 GMT-04:00" name="tearDownClass" finished-at="2025-09-12T09:48:36 GMT-04:00" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- org.wikipedia.runner.TestNGRunner -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2025-09-12T09:48:21 GMT-04:00" name="FirefoxTest" finished-at="2025-09-12T09:48:51 GMT-04:00" duration-ms="29796">
-      <class name="org.wikipedia.runner.TestNGRunner">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-12T09:48:21 GMT-04:00" name="setBrowser" finished-at="2025-09-12T09:48:21 GMT-04:00" duration-ms="41" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-12T09:48:21 GMT-04:00" name="setUpClass" finished-at="2025-09-12T09:48:23 GMT-04:00" duration-ms="1616" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setUpClass" finished-at="2025-09-15T10:32:21 GMT-04:00" duration-ms="1474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-12T09:48:23 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-12T09:48:39 GMT-04:00" duration-ms="16840" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:31 GMT-04:00" duration-ms="9522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-12T09:48:39 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-12T09:48:51 GMT-04:00" duration-ms="11159" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:31 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:36 GMT-04:00" duration-ms="5594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +66,131 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-12T09:48:51 GMT-04:00" name="tearDownClass" finished-at="2025-09-12T09:48:51 GMT-04:00" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:36 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.wikipedia.runner.TestNGRunner -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-09-15T10:32:20 GMT-04:00" name="EdgeTest" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="17202">
+      <class name="org.wikipedia.runner.TestNGRunner">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setBrowser" finished-at="2025-09-15T10:32:20 GMT-04:00" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setUpClass" finished-at="2025-09-15T10:32:21 GMT-04:00" duration-ms="1479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3514a4c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:31 GMT-04:00" duration-ms="9840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:31 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="5701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:37 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.wikipedia.runner.TestNGRunner -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-09-15T10:32:20 GMT-04:00" name="FirefoxTest" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="31756">
+      <class name="org.wikipedia.runner.TestNGRunner">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setBrowser" finished-at="2025-09-15T10:32:20 GMT-04:00" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setUpClass" finished-at="2025-09-15T10:32:21 GMT-04:00" duration-ms="1478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29d89d5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:40 GMT-04:00" duration-ms="19233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="10866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:51 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

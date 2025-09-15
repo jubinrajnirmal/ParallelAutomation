@@ -26,34 +26,34 @@ public class DriverUtilities {
 		return driver.get();
 	}
 
-	@SuppressWarnings("deprecation")
-	public static void createDriver(String browser) {
-		System.out.println("BrowserName from DriverUtil is " + browser);
-		URL gridURL;
-		try {
-			gridURL = new URL("http://localhost:4444");
-		} catch (MalformedURLException e) {
-			throw new RuntimeException("Malformed URL", e);
-		}
+    @SuppressWarnings("deprecation")
+    public static void createDriver(String browser) {
+        System.out.println("BrowserName from DriverUtil is " + browser);
+        URL gridURL;
+        try {
+            gridURL = new URL("http://localhost:4444");
+        } catch (MalformedURLException e) {
+            throw new RuntimeException("Malformed URL", e);
+        }
 
-		RemoteWebDriver remoteDriver;
+        RemoteWebDriver remoteDriver;
 
-		switch (browser.toLowerCase()) {
-		case "chrome":
-			remoteDriver = new RemoteWebDriver(gridURL, new ChromeOptions());
-			break;
-		case "firefox":
-			remoteDriver = new RemoteWebDriver(gridURL, new FirefoxOptions());
-			break;
-		case "edge":
-			remoteDriver = new RemoteWebDriver(gridURL, new EdgeOptions());
-			break;
-		default:
-			throw new IllegalArgumentException("Invalid browser: " + browser);
-		}
+        switch (browser.toLowerCase()) {
+        case "chrome":
+            remoteDriver = new RemoteWebDriver(gridURL, new ChromeOptions());
+            break;
+        case "firefox":
+            remoteDriver = new RemoteWebDriver(gridURL, new FirefoxOptions());
+            break;
+        case "edge":
+            remoteDriver = new RemoteWebDriver(gridURL, new EdgeOptions());
+            break;
+        default:
+            throw new IllegalArgumentException("Invalid browser: " + browser);
+        }
 
-		driver.set(remoteDriver);
-	}
+        driver.set(remoteDriver);
+    }
 
 }
 	/*// 1 Private Static Instance

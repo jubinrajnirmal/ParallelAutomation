@@ -3,7 +3,7 @@ pipeline {
 
     triggers {
         // GitHub webhook triggers build on commit
-        githubPush()
+        pollSCM('* * * * *')
 
         // Daily scheduled to run tests at 12PM
         cron('H 12 * * *')

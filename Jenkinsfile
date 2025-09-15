@@ -13,11 +13,18 @@ pipeline {
 
         stage('Start Selenium Grid') {
             steps {
-                dir('G:\\selenium') {
-                    bat 'start cmd /c "java -jar selenium-server-4.35.0.jar hub"'
-                    bat 'start cmd /c "java -jar selenium-server-4.35.0.jar node --config node.toml --detect-drivers false"'
-                }
-                echo '✅ Selenium Grid Hub + Nodes started'
+                 script {
+           		 	try {
+                		def response = httpRequest url: 'http://localhost:4444/status'
+                		if (response.status == 200 && response.content.contains('"ready":true')) {
+                    		echo '✅ Selenium Grid is up and ready'
+                		} else {
+                    		error('❌ Selenium Grid is not ready')
+                		}
+            		} catch (Exception e) {
+                		error("❌ Could not reach Selenium Grid at http://localhost:4444/status")
+            		}
+        		}
             }
         }
 
@@ -30,27 +37,30 @@ pipeline {
         stage('Run Tests') {
             steps  {
         		catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-            		bat 'mvn clean test'
-        }
-        }
-}
-        stage('Archive Reports') {
-            steps {
-                archiveArtifacts artifacts: 'target/cucumber-reports.html, target/cucumber-reports.json, target/cucumber-reports.xml, test-output/**', fingerprint: true
-            }
-        }
+            		// Saving the console output to parse the report links
+            		bat 'mvn clean test > cucumber_output.txt'
+        		}
+        		
+        		script {
+                    // Extract all cucumber report links
+                    def reportLinks = powershell(
+                        returnStdout: true,
+                        script: """
+                            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/' |
+                            ForEach-Object { $_.Matches.Value }
+                        """
+                    ).trim().split("\\r?\\n")
 
-        stage('Publish HTML Report') {
-            steps {
-                publishHTML([allowMissing: false,
-                             alwaysLinkToLastBuild: true,
-                             keepAll: true,
-                             reportDir: 'target',
-                             reportFiles: 'cucumber-reports.html',
-                             reportName: 'Cucumber HTML Report'])
+                   if (reportLinks && reportLinks.size() > 0) {
+                env.CUCUMBER_REPORTS = reportLinks.join("\\n")
+                echo "Found Cucumber reports:\n${env.CUCUMBER_REPORTS}"
+            } else {
+                env.CUCUMBER_REPORTS = "No cucumber report links found."
+                echo "No cucumber report links found in test output."
             }
         }
     }
+}
 
     post {
         always {
@@ -62,9 +72,12 @@ pipeline {
 The build finished with: ${currentBuild.currentResult}
 Build URL: ${env.BUILD_URL}
 
-Report attached.
+Cucumber Cloud Reports:
+${env.CUCUMBER_REPORT_LINKS}
+
+
 """,
-                attachmentsPattern: 'target/cucumber-reports.html'
+                attachLog: false
             )
         }
     }

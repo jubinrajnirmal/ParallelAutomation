@@ -15,6 +15,7 @@ import io.cucumber.testng.CucumberOptions;
                 "json:target/cucumber-reports.json",
                 "junit:target/cucumber-reports.xml"
         },
+        publish = true,
         monochrome = true
         //tags = "@InvalidLogin and @Login" 
 )

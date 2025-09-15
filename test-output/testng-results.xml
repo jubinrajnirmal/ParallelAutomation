@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="57" passed="56" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T10:32:20 GMT-04:00" name="CrossBrowserSuite" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="31756">
+  <suite started-at="2025-09-15T14:17:42 GMT-04:00" name="CrossBrowserSuite" finished-at="2025-09-15T14:21:57 GMT-04:00" duration-ms="254295">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -10,9 +10,9 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-15T10:32:20 GMT-04:00" name="ChromeTest" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="16939">
+    <test started-at="2025-09-15T14:17:42 GMT-04:00" name="ChromeTest" finished-at="2025-09-15T14:19:34 GMT-04:00" duration-ms="111318">
       <class name="org.wikipedia.runner.TestNGRunner">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setBrowser" finished-at="2025-09-15T10:32:20 GMT-04:00" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:17:42 GMT-04:00" name="setBrowser" finished-at="2025-09-15T14:17:42 GMT-04:00" duration-ms="46" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,18 +23,66 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setUpClass" finished-at="2025-09-15T10:32:21 GMT-04:00" duration-ms="1474" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:17:42 GMT-04:00" name="setUpClass" finished-at="2025-09-15T14:17:44 GMT-04:00" duration-ms="1834" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@212b5695]]>
+                <![CDATA[org.testng.TestRunner@2fd1433e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:31 GMT-04:00" duration-ms="9522" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:17:44 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:17:52 GMT-04:00" duration-ms="7977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the login page from the main page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:17:52 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:02 GMT-04:00" duration-ms="9779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:02 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:07 GMT-04:00" duration-ms="4587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""Keep me logged in" checkbox functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:07 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:12 GMT-04:00" duration-ms="4873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:31 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:36 GMT-04:00" duration-ms="5594" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:12 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:16 GMT-04:00" duration-ms="4755" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +114,239 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T10:32:36 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="186" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:16 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:21 GMT-04:00" duration-ms="4186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with empty fields for HTML5 validation erros"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:25 GMT-04:00" duration-ms="4262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with empty fields for HTML5 validation erros"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:25 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:30 GMT-04:00" duration-ms="4843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:30 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:34 GMT-04:00" duration-ms="4498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:34 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:39 GMT-04:00" duration-ms="4489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:39 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:43 GMT-04:00" duration-ms="4239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:43 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:47 GMT-04:00" duration-ms="4352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:51 GMT-04:00" duration-ms="4140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:51 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:56 GMT-04:00" duration-ms="5069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:18:56 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:02 GMT-04:00" duration-ms="5097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:19:02 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:06 GMT-04:00" duration-ms="4151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:19:06 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:10 GMT-04:00" duration-ms="4398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:19:10 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:15 GMT-04:00" duration-ms="5137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Read Wikipedia in your language" dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:19:15 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:32 GMT-04:00" duration-ms="17018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all available languages in the search dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7d8704ef]" started-at="2025-09-15T14:19:32 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T14:19:34 GMT-04:00" duration-ms="1394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- org.wikipedia.runner.TestNGRunner -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-09-15T10:32:20 GMT-04:00" name="EdgeTest" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="17202">
+    <test started-at="2025-09-15T14:17:42 GMT-04:00" name="EdgeTest" finished-at="2025-09-15T14:19:37 GMT-04:00" duration-ms="114537">
       <class name="org.wikipedia.runner.TestNGRunner">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setBrowser" finished-at="2025-09-15T10:32:20 GMT-04:00" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:17:42 GMT-04:00" name="setBrowser" finished-at="2025-09-15T14:17:42 GMT-04:00" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setUpClass" finished-at="2025-09-15T10:32:21 GMT-04:00" duration-ms="1479" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:17:42 GMT-04:00" name="setUpClass" finished-at="2025-09-15T14:17:44 GMT-04:00" duration-ms="1832" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +368,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:31 GMT-04:00" duration-ms="9840" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:17:44 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:17:52 GMT-04:00" duration-ms="8118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the login page from the main page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:17:52 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:02 GMT-04:00" duration-ms="9519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:02 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:07 GMT-04:00" duration-ms="4822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""Keep me logged in" checkbox functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:07 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:12 GMT-04:00" duration-ms="5130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,7 +432,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:31 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="5701" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:12 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:17 GMT-04:00" duration-ms="5290" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,15 +448,239 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T10:32:37 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T10:32:37 GMT-04:00" duration-ms="38" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:17 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:22 GMT-04:00" duration-ms="4679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with empty fields for HTML5 validation erros"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:22 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:26 GMT-04:00" duration-ms="4245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with empty fields for HTML5 validation erros"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:26 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:31 GMT-04:00" duration-ms="4806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:31 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:36 GMT-04:00" duration-ms="4786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:36 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:40 GMT-04:00" duration-ms="4633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:45 GMT-04:00" duration-ms="4688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:45 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:50 GMT-04:00" duration-ms="4739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:50 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:55 GMT-04:00" duration-ms="4733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:18:55 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:00 GMT-04:00" duration-ms="5121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:19:00 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:05 GMT-04:00" duration-ms="5122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:19:05 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:10 GMT-04:00" duration-ms="4708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:19:10 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:14 GMT-04:00" duration-ms="4589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:19:14 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:20 GMT-04:00" duration-ms="5695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Read Wikipedia in your language" dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:19:20 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:37 GMT-04:00" duration-ms="16752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all available languages in the search dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@672872e1]" started-at="2025-09-15T14:19:37 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T14:19:37 GMT-04:00" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- org.wikipedia.runner.TestNGRunner -->
     </test> <!-- EdgeTest -->
-    <test started-at="2025-09-15T10:32:20 GMT-04:00" name="FirefoxTest" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="31756">
+    <test started-at="2025-09-15T14:17:42 GMT-04:00" name="FirefoxTest" finished-at="2025-09-15T14:21:57 GMT-04:00" duration-ms="254295">
       <class name="org.wikipedia.runner.TestNGRunner">
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setBrowser" finished-at="2025-09-15T10:32:20 GMT-04:00" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:17:42 GMT-04:00" name="setBrowser" finished-at="2025-09-15T14:17:42 GMT-04:00" duration-ms="46" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +691,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:20 GMT-04:00" name="setUpClass" finished-at="2025-09-15T10:32:21 GMT-04:00" duration-ms="1478" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:17:42 GMT-04:00" name="setUpClass" finished-at="2025-09-15T14:17:44 GMT-04:00" duration-ms="1834" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +702,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:21 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:40 GMT-04:00" duration-ms="19233" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:17:44 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:04 GMT-04:00" duration-ms="19735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the login page from the main page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:18:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:22 GMT-04:00" duration-ms="18136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:18:22 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:37 GMT-04:00" duration-ms="14561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""Keep me logged in" checkbox functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:18:37 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:18:53 GMT-04:00" duration-ms="15801" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,7 +766,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="10866" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:18:53 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:07 GMT-04:00" duration-ms="14540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +782,244 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T10:32:51 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T10:32:51 GMT-04:00" duration-ms="34" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:19:07 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:23 GMT-04:00" duration-ms="15412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with empty fields for HTML5 validation erros"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:19:23 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:34 GMT-04:00" duration-ms="11749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login attempts with empty fields for HTML5 validation erros"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login on Wikipedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:19:34 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:45 GMT-04:00" duration-ms="10846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:19:45 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:19:57 GMT-04:00" duration-ms="11849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:19:57 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:20:09 GMT-04:00" duration-ms="11649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:20:09 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:20:20 GMT-04:00" duration-ms="11441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:20:20 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:20:32 GMT-04:00" duration-ms="11626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:20:32 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:20:43 GMT-04:00" duration-ms="11244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:20:43 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:20:54 GMT-04:00" duration-ms="10782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:20:54 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:21:04 GMT-04:00" duration-ms="10513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:21:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:21:15 GMT-04:00" duration-ms="10936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:21:15 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:21:26 GMT-04:00" duration-ms="10507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify language links on the Wikipedia home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:21:26 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:21:37 GMT-04:00" duration-ms="10891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Read Wikipedia in your language" dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:21:37 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-15T14:21:56 GMT-04:00" duration-ms="19384" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all available languages in the search dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wikipedia Home Page Languages and Dropdowns"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not all languages were selectable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not all languages were selectable
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable(F2_StepDef.java:54)
+at ✽.each language option should be selectable(file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:42)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.wikipedia.runner.TestNGRunner@7c1e2a9e]" started-at="2025-09-15T14:21:56 GMT-04:00" name="tearDownClass" finished-at="2025-09-15T14:21:57 GMT-04:00" duration-ms="640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

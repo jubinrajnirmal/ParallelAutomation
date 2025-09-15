@@ -38,34 +38,37 @@ pipeline {
             }
         }
 
-    stage('Run Tests') {
-    steps {
-        catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-            // Run Maven, show output in Jenkins console, and also write to cucumber_output.txt
-            powershell """
-                mvn clean test 2>&1 | Tee-Object -FilePath cucumber_output.txt
-            """
+        stage('Run Tests') {
+            steps {
+                catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+                    // Run Maven, show output in Jenkins console, and also write to cucumber_output.txt
+                    powershell """
+                        mvn clean test 2>&1 | Tee-Object -FilePath cucumber_output.txt
+                    """
+                }
+
+                script {
+                    // Extract all cucumber report links safely
+                    def reportLinks = powershell(
+                        returnStdout: true,
+                        script: """
+                            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/' |
+                            ForEach-Object { \$_.Matches.Value }
+                        """
+                    ).trim().split("\\r?\\n")
+
+                    if (reportLinks && reportLinks.size() > 0) {
+                        env.CUCUMBER_REPORTS = reportLinks.join("\n")
+                        echo "Found Cucumber reports:\n${env.CUCUMBER_REPORTS}"
+                    } else {
+                        env.CUCUMBER_REPORTS = "No cucumber report links found."
+                        echo "No cucumber report links found in test output."
+                    }
+                }
+            }
         }
-
-       script {
-    // Extract all cucumber report links safely
-    def reportLinks = powershell(
-        returnStdout: true,
-        script: """
-            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/' |
-            ForEach-Object { \$_.Matches.Value }
-        """
-    ).trim().split("\\r?\\n")
-
-    if (reportLinks && reportLinks.size() > 0) {
-        env.CUCUMBER_REPORTS = reportLinks.join("\n")
-        echo "Found Cucumber reports:\n${env.CUCUMBER_REPORTS}"
-    } else {
-        env.CUCUMBER_REPORTS = "No cucumber report links found."
-        echo "No cucumber report links found in test output."
     }
-}
-}
+
     post {
         always {
             emailext(

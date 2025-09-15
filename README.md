@@ -1,1 +1,1 @@
-# ParallelAutomationProject for CICD-Jenkins
+# ParallelAutomationProject for Jenkins-CICD

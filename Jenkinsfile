@@ -17,8 +17,8 @@ pipeline {
 				bat 'start cmd /c "java -jar selenium-server-4.35.0.jar hub"'
 				bat 'start cmd /c "java -jar selenium-server-4.35.0.jar node --config node.toml --detect-drivers false"'
 				}
-			}
 			echo '✅ Selenium Grid Hub + Nodes started'
+			}
 		}
 		
 		stage('Checkout Code') {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="264.501" tests="57" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.49" tests="20" errors="0" skipped="19" failures="1">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\jubin\AppData\Local\Temp\surefire9499827695665632775\surefirebooter-20250912125849633_3.jar C:\Users\jubin\AppData\Local\Temp\surefire9499827695665632775 2025-09-12T12-58-49_225-jvmRun1 surefire-20250912125849633_1tmp surefire_0-20250912125849633_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jubin\AppData\Local\Temp\surefire9099541107794335392\surefirebooter-20250915123749777_3.jar C:\Users\jubin\AppData\Local\Temp\surefire9099541107794335392 2025-09-15T12-37-49_449-jvmRun1 surefire-20250915123749777_1tmp surefire_0-20250915123749777_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\ECLIPSE_PLAYGROUND\ParallelAutomation\target\test-classes;G:\ECLIPSE_PLAYGROUND\ParallelAutomation\target\classes;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\jubin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\jubin\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\jubin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jubin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\jubin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\jubin\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\jubin\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\jubin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\jubin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jubin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\jubin\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\jubin\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\jubin\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\jubin\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\jubin\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\jubin\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\jubin\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\jubin\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\jubin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\jubin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-junit\7.27.2\cucumber-junit-7.27.2.jar;C:\Users\jubin\.m2\repository\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar;C:\Users\jubin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\jubin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\jubin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\jubin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\jubin\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.1\webdrivermanager-6.3.1.jar;C:\Users\jubin\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\jubin\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\jubin\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\jubin\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\jubin\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\jubin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\jubin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\jubin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\jubin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\jubin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\jubin\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\jubin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\jubin\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\jubin\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\jubin\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\jubin\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\jubin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\jubin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\jubin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\jubin\.m2\repository\io\cucumber\cucumber-testng\7.28.2\cucumber-testng-7.28.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,22 +30,19 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jubin\AppData\Local\Temp\surefire9499827695665632775\surefirebooter-20250912125849633_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jubin\AppData\Local\Temp\surefire9099541107794335392\surefirebooter-20250915123749777_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
     <property name="user.name" value="jubin"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
-    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\jubin\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="otel.logs.exporter" value="none"/>
     <property name="java.io.tmpdir" value="C:\Users\jubin\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.2"/>
     <property name="user.dir" value="G:\ECLIPSE_PLAYGROUND\ParallelAutomation"/>
@@ -53,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;G:\minikube;C:\ProgramData\chocolatey\bin;G:\NodeJS\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\Users\jubin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jubin\AppData\Local\Programs\Python\Python312\;C:\Users\jubin\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-23\bin;C:\Users\jubin\AppData\Local\Programs\Microsoft VS Code\bin;%IntelliJ IDEA Community Edition%;G:\Azure Data Studio\bin;C:\Users\jubin\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;G:\minikube;C:\ProgramData\chocolatey\bin;G:\NodeJS\;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\Users\jubin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jubin\AppData\Local\Programs\Python\Python312\;C:\Users\jubin\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-23\bin;C:\Users\jubin\AppData\Local\Programs\Microsoft VS Code\bin;%IntelliJ IDEA Community Edition%;G:\Azure Data Studio\bin;C:\Users\jubin\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -61,708 +58,98 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Navigate to the login page from the main page&quot;, &quot;User Login on Wikipedia&quot;](1)" classname="org.wikipedia.runner.TestNGRunner" time="7.405">
-    <system-out><![CDATA[>>> Browser from testng.xml = edge
->>> Browser from testng.xml = firefox
->>> Browser from testng.xml = chrome
+  <testcase name="setBrowser" classname="org.wikipedia.runner.TestNGRunner" time="0.745">
+    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
-@Login @Navigation @Login
-Scenario: Navigate to the login page from the main page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:12
+Parameter 'browser' is required by BeforeTest on method setBrowser but has not been marked @Optional or defined
 
-@Login @Navigation @Login
-Scenario: Navigate to the login page from the main page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:12
-
-@Login @Navigation @Login
-Scenario: Navigate to the login page from the main page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:12
-Return BrowserName from Runner:edge
-Return BrowserName from Runner:firefox
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is edge
-BrowserName from DriverUtil is chrome
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia main page               # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_main_page()
-  ✔ Given I am on the Wikipedia main page               # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_main_page()
-  ✔ When I click the Login link in the header           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_link_in_the_header()
-  ✔ Then I should be on the Wikipedia Login page        # org.wikipedia.stepdefs.F1_StepDef.i_should_be_on_the_wikipedia_login_page()
-  ✔ And I should see the Username field                 # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_username_field()
-  ✔ And I should see the Password field                 # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_password_field()
-  ✔ And I should see the Login button                   # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_login_button()
-]]></system-out>
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+	at org.testng.TestRunner.run(TestRunner.java:612)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sept 12, 2025 12:58:53 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
-INFO: Using OpenTelemetry for tracing
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Navigate to the login page from the main page&quot;, &quot;User Login on Wikipedia&quot;](1)" classname="org.wikipedia.runner.TestNGRunner" time="1.489">
-    <system-out><![CDATA[
-@Login @ValidLogin @Login
-Scenario: Successful login with valid credentials # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:22
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ When I click the Login link in the header           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_link_in_the_header()
-  ✔ Then I should be on the Wikipedia Login page        # org.wikipedia.stepdefs.F1_StepDef.i_should_be_on_the_wikipedia_login_page()
-  ✔ And I should see the Username field                 # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_username_field()
-  ✔ And I should see the Password field                 # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_password_field()
-  ✔ And I should see the Login button                   # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_login_button()
-]]></system-out>
+  <testcase name="runScenario[&quot;Navigate to the login page from the main page&quot;, &quot;User Login on Wikipedia&quot;](1)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Navigate to the login page from the main page&quot;, &quot;User Login on Wikipedia&quot;](1)" classname="org.wikipedia.runner.TestNGRunner" time="2.28">
-    <system-out><![CDATA[
-@Login @Checkbox @Login
-Scenario: "Keep me logged in" checkbox functionality             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:31
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-]]></system-out>
+  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;User Login on Wikipedia&quot;](2)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;User Login on Wikipedia&quot;](2)" classname="org.wikipedia.runner.TestNGRunner" time="9.648">
-    <system-out><![CDATA[
-@Login @ValidLogin @Login
-Scenario: Successful login with valid credentials # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:22
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia Login page        # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter the valid username               # org.wikipedia.stepdefs.F1_StepDef.i_enter_the_valid_username()
-  ✔ And I enter the valid password                # org.wikipedia.stepdefs.F1_StepDef.i_enter_the_valid_password()
-  ✔ Given I am on the Wikipedia Login page        # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter the valid username               # org.wikipedia.stepdefs.F1_StepDef.i_enter_the_valid_username()
-  ✔ And I enter the valid password                # org.wikipedia.stepdefs.F1_StepDef.i_enter_the_valid_password()
-  ✔ And I click the Login button                  # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ And I click the Login button                  # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Given I am on the Wikipedia main page               # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_main_page()
-  ✔ When I click the Login link in the header           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_link_in_the_header()
-  ✔ Then I should be on the Wikipedia Login page        # org.wikipedia.stepdefs.F1_StepDef.i_should_be_on_the_wikipedia_login_page()
-  ✔ And I should see the Username field                 # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_username_field()
-  ✔ And I should see the Password field                 # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_password_field()
-  ✔ And I should see the Login button                   # org.wikipedia.stepdefs.F1_StepDef.i_should_see_the_login_button()
-  ✔ Then I should be logged in successfully       # org.wikipedia.stepdefs.F1_StepDef.i_should_be_logged_in_successfully()
-]]></system-out>
+  <testcase name="runScenario[&quot;&quot;Keep me logged in&quot; checkbox functionality&quot;, &quot;User Login on Wikipedia&quot;](3)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;User Login on Wikipedia&quot;](2)" classname="org.wikipedia.runner.TestNGRunner" time="4.336">
-    <system-out><![CDATA[
-@Login @InvalidLogin @Login
-Scenario Outline: Unsuccessful login attempts with invalid credentials                             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:50
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia Login page                                                         # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter "SeleniumT3stUser" in the Username field                                          # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_username_field(java.lang.String)
-  ✔ Then I should be logged in successfully       # org.wikipedia.stepdefs.F1_StepDef.i_should_be_logged_in_successfully()
-  ✔ And I enter "Inc0rrectPass" in the Password field                                              # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_password_field(java.lang.String)
-]]></system-out>
+  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](4)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;User Login on Wikipedia&quot;](2)" classname="org.wikipedia.runner.TestNGRunner" time="2.783">
-    <system-out><![CDATA[
-@Login @Validation @Login
-Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:66
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia Login page                                                         # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter "N0nExistentUser123" in the Username field                                        # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_username_field(java.lang.String)
-  ✔ And I enter "AnyP4ssw0rd" in the Password field                                                # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_password_field(java.lang.String)
-  ✔ And I click the Login button                                                                   # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see an error message "Incorrect username or password entered. Please try again." # org.wikipedia.stepdefs.F1_StepDef.i_should_see_an_error_message(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                              # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
+  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](5)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;&quot;Keep me logged in&quot; checkbox functionality&quot;, &quot;User Login on Wikipedia&quot;](3)" classname="org.wikipedia.runner.TestNGRunner" time="1.984">
-    <system-out><![CDATA[
-@Login @ValidLogin @Login
-Scenario: Successful login with valid credentials # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:22
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia Login page                       # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I check the "Keep me logged in" checkbox                # org.wikipedia.stepdefs.F1_StepDef.i_check_the_checkbox(java.lang.String)
-  ✔ Then the "Keep me logged in" checkbox should be selected     # org.wikipedia.stepdefs.F1_StepDef.the_checkbox_should_be_selected(java.lang.String)
-  ✔ And When I uncheck the "Keep me logged in" checkbox          # org.wikipedia.stepdefs.F1_StepDef.when_i_uncheck_the_checkbox(java.lang.String)
-  ✔ Then the "Keep me logged in" checkbox should not be selected # org.wikipedia.stepdefs.F1_StepDef.the_checkbox_should_not_be_selected(java.lang.String)
-]]></system-out>
+  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](6)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;&quot;Keep me logged in&quot; checkbox functionality&quot;, &quot;User Login on Wikipedia&quot;](3)" classname="org.wikipedia.runner.TestNGRunner" time="3.597">
-    <system-out><![CDATA[
-@Login @InvalidLogin @Login
-Scenario Outline: Unsuccessful login attempts with invalid credentials                             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:51
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia Login page                       # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I check the "Keep me logged in" checkbox                # org.wikipedia.stepdefs.F1_StepDef.i_check_the_checkbox(java.lang.String)
-  ✔ Then the "Keep me logged in" checkbox should be selected     # org.wikipedia.stepdefs.F1_StepDef.the_checkbox_should_be_selected(java.lang.String)
-  ✔ And When I uncheck the "Keep me logged in" checkbox          # org.wikipedia.stepdefs.F1_StepDef.when_i_uncheck_the_checkbox(java.lang.String)
-  ✔ Then the "Keep me logged in" checkbox should not be selected # org.wikipedia.stepdefs.F1_StepDef.the_checkbox_should_not_be_selected(java.lang.String)
-  ✔ Given I am on the Wikipedia Login page                                                         # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter "N0nExistentUser123" in the Username field                                        # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_username_field(java.lang.String)
-]]></system-out>
+  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](7)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;&quot;Keep me logged in&quot; checkbox functionality&quot;, &quot;User Login on Wikipedia&quot;](3)" classname="org.wikipedia.runner.TestNGRunner" time="1.01">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:22
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](8)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](4)" classname="org.wikipedia.runner.TestNGRunner" time="0.875">
-    <system-out><![CDATA[
-@Login @Checkbox @Login
-Scenario: "Keep me logged in" checkbox functionality             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:31
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ And I click the Login button                                                                   # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see an error message "Incorrect username or password entered. Please try again." # org.wikipedia.stepdefs.F1_StepDef.i_should_see_an_error_message(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                              # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](9)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](4)" classname="org.wikipedia.runner.TestNGRunner" time="3.709">
-    <system-out><![CDATA[
-@Login @Validation @Login
-Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:65
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia Login page                                                         # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter "SeleniumT3stUser" in the Username field                                          # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_username_field(java.lang.String)
-  ✔ And I enter "Inc0rrectPass" in the Password field                                              # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_password_field(java.lang.String)
-  ✔ And I click the Login button                  # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ And I click the Login button                                                                   # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see an error message "Incorrect username or password entered. Please try again." # org.wikipedia.stepdefs.F1_StepDef.i_should_see_an_error_message(java.lang.String)
-  ✔ Given I am on the Wikipedia Login page                                                 # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ And I should still be on the Wikipedia Login page                                              # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-  ✔ When I leave the "Username" field empty                                                # org.wikipedia.stepdefs.F1_StepDef.i_leave_the_field_empty(java.lang.String)
-  ✔ And I enter "AnyPassword" in the "Password" field                                      # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_field(java.lang.String,java.lang.String)
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](10)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](4)" classname="org.wikipedia.runner.TestNGRunner" time="0.014">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:26
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](11)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](5)" classname="org.wikipedia.runner.TestNGRunner" time="1.824">
-    <system-out><![CDATA[
-@Login @InvalidLogin @Login
-Scenario Outline: Unsuccessful login attempts with invalid credentials                             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:50
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ And I enter "AnyP4ssw0rd" in the Password field                                                # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_password_field(java.lang.String)
-  ✔ And I click the Login button                                                                   # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Given I am on the Wikipedia Login page        # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ Then I should see an error message "Incorrect username or password entered. Please try again." # org.wikipedia.stepdefs.F1_StepDef.i_should_see_an_error_message(java.lang.String)
-  ✔ When I enter the valid username               # org.wikipedia.stepdefs.F1_StepDef.i_enter_the_valid_username()
-  ✔ And I should still be on the Wikipedia Login page                                              # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-  ✔ And I enter the valid password                # org.wikipedia.stepdefs.F1_StepDef.i_enter_the_valid_password()
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](12)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](5)" classname="org.wikipedia.runner.TestNGRunner" time="0.129">
-    <system-out><![CDATA[
-@Login @Checkbox @Login
-Scenario: "Keep me logged in" checkbox functionality             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:31
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](13)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with invalid credentials&quot;, &quot;User Login on Wikipedia&quot;](5)" classname="org.wikipedia.runner.TestNGRunner" time="2.934">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:29
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](14)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](6)" classname="org.wikipedia.runner.TestNGRunner" time="2.38">
-    <system-out><![CDATA[
-@Login @InvalidLogin @Login
-Scenario Outline: Unsuccessful login attempts with invalid credentials                             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:51
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ And I click the Login button                                                           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see a browser validation message for the "Username" field                # org.wikipedia.stepdefs.F1_StepDef.i_should_see_a_browser_validation_message_for_the_field(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                      # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-  ✔ Then I should be logged in successfully       # org.wikipedia.stepdefs.F1_StepDef.i_should_be_logged_in_successfully()
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](15)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](6)" classname="org.wikipedia.runner.TestNGRunner" time="2.412">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:21
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia Login page                                                 # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I leave the "Username" field empty                                                # org.wikipedia.stepdefs.F1_StepDef.i_leave_the_field_empty(java.lang.String)
-  ✔ And I enter "AnyPassword" in the "Password" field                                      # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_field(java.lang.String,java.lang.String)
-  ✔ And I click the Login button                                                           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see a browser validation message for the "Username" field                # org.wikipedia.stepdefs.F1_StepDef.i_should_see_a_browser_validation_message_for_the_field(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                      # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](16)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](6)" classname="org.wikipedia.runner.TestNGRunner" time="0.711">
-    <system-out><![CDATA[
-@homepage @regression @dropdown @full
-Scenario: Verify all available languages in the search dropdown # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:40
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Read Wikipedia in your language" dropdown # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_dropdown(java.lang.String)
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](17)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](7)" classname="org.wikipedia.runner.TestNGRunner" time="1.971">
-    <system-out><![CDATA[
-@Login @Validation @Login
-Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:65
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia Login page                                                 # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I leave the "Password" field empty                                                # org.wikipedia.stepdefs.F1_StepDef.i_leave_the_field_empty(java.lang.String)
-  ✔ And I enter "SeleniumTestUser" in the "Username" field                                 # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_field(java.lang.String,java.lang.String)
-  ✔ And I click the Login button                                                           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see a browser validation message for the "Password" field                # org.wikipedia.stepdefs.F1_StepDef.i_should_see_a_browser_validation_message_for_the_field(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                      # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify &quot;Read Wikipedia in your language&quot; dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](18)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](7)" classname="org.wikipedia.runner.TestNGRunner" time="0.498">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:22
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Unsuccessful login attempts with empty fields for HTML5 validation erros&quot;, &quot;User Login on Wikipedia&quot;](7)" classname="org.wikipedia.runner.TestNGRunner" time="12.178">
-    <system-out><![CDATA[
-@homepage @regression @dropdown @full
-Scenario: Verify all available languages in the search dropdown # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:40
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia home page                       # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I collect all the languages from the search dropdown   # org.wikipedia.stepdefs.F2_StepDef.i_collect_all_the_languages_from_the_search_dropdown()
-  ✔ Given I am on the Wikipedia home page                       # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I collect all the languages from the search dropdown   # org.wikipedia.stepdefs.F2_StepDef.i_collect_all_the_languages_from_the_search_dropdown()
-  ✔ Given I am on the Wikipedia Login page                                                 # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I leave the "Password" field empty                                                # org.wikipedia.stepdefs.F1_StepDef.i_leave_the_field_empty(java.lang.String)
-  ✔ And I enter "SeleniumTestUser" in the "Username" field                                 # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_field(java.lang.String,java.lang.String)
-  ✔ And I click the Login button                                                           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see a browser validation message for the "Password" field                # org.wikipedia.stepdefs.F1_StepDef.i_should_see_a_browser_validation_message_for_the_field(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                      # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](8)" classname="org.wikipedia.runner.TestNGRunner" time="4.426">
-    <system-out><![CDATA[
-@Login @Validation @Login
-Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:66
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "English" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "en.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-  ✔ Given I am on the Wikipedia Login page                                                 # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I leave the "Password" field empty                                                # org.wikipedia.stepdefs.F1_StepDef.i_leave_the_field_empty(java.lang.String)
-  ✔ And I enter "SeleniumTestUser" in the "Username" field                                 # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_field(java.lang.String,java.lang.String)
-  ✔ And I click the Login button                                                           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see a browser validation message for the "Password" field                # org.wikipedia.stepdefs.F1_StepDef.i_should_see_a_browser_validation_message_for_the_field(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                      # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](8)" classname="org.wikipedia.runner.TestNGRunner" time="0.026">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:23
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](8)" classname="org.wikipedia.runner.TestNGRunner" time="13.219">
-    <system-out><![CDATA[  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "English" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "en.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](9)" classname="org.wikipedia.runner.TestNGRunner" time="4.675">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:21
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia Login page                       # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I check the "Keep me logged in" checkbox                # org.wikipedia.stepdefs.F1_StepDef.i_check_the_checkbox(java.lang.String)
-  ✔ Then the "Keep me logged in" checkbox should be selected     # org.wikipedia.stepdefs.F1_StepDef.the_checkbox_should_be_selected(java.lang.String)
-  ✔ And When I uncheck the "Keep me logged in" checkbox          # org.wikipedia.stepdefs.F1_StepDef.when_i_uncheck_the_checkbox(java.lang.String)
-  ✔ Then the "Keep me logged in" checkbox should not be selected # org.wikipedia.stepdefs.F1_StepDef.the_checkbox_should_not_be_selected(java.lang.String)
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Русский" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "ru.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-  ✔ When I click on the "English" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "en.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](9)" classname="org.wikipedia.runner.TestNGRunner" time="3.551">
-    <system-out><![CDATA[
-@Login @InvalidLogin @Login
-Scenario Outline: Unsuccessful login attempts with invalid credentials                             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:50
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Русский" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "ru.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](9)" classname="org.wikipedia.runner.TestNGRunner" time="11.42">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:22
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Русский" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "ru.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](10)" classname="org.wikipedia.runner.TestNGRunner" time="0.496">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:23
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ When I click on the "Français" language link                   # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "fr.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](10)" classname="org.wikipedia.runner.TestNGRunner" time="4.636">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:24
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Français" language link                   # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "fr.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](10)" classname="org.wikipedia.runner.TestNGRunner" time="12.168">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:23
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Français" language link                   # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "fr.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](11)" classname="org.wikipedia.runner.TestNGRunner" time="0.533">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:24
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ When I click on the "Deutsch" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "de.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](11)" classname="org.wikipedia.runner.TestNGRunner" time="4.09">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:25
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Deutsch" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "de.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](11)" classname="org.wikipedia.runner.TestNGRunner" time="12.67">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:24
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Deutsch" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "de.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](12)" classname="org.wikipedia.runner.TestNGRunner" time="1.018">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:25
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ When I click on the "Español" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "es.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-  ✔ Given I am on the Wikipedia Login page                                                         # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](12)" classname="org.wikipedia.runner.TestNGRunner" time="3.388">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:26
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ When I enter "SeleniumT3stUser" in the Username field                                          # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_username_field(java.lang.String)
-  ✔ And I enter "Inc0rrectPass" in the Password field                                              # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_password_field(java.lang.String)
-  ✔ And I click the Login button                                                                   # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see an error message "Incorrect username or password entered. Please try again." # org.wikipedia.stepdefs.F1_StepDef.i_should_see_an_error_message(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                              # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Español" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "es.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](12)" classname="org.wikipedia.runner.TestNGRunner" time="10.815">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:25
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Español" language link                    # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "es.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](13)" classname="org.wikipedia.runner.TestNGRunner" time="1.438">
-    <system-out><![CDATA[
-@Login @InvalidLogin @Login
-Scenario Outline: Unsuccessful login attempts with invalid credentials                             # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:51
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Italiano" language link                   # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "it.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](13)" classname="org.wikipedia.runner.TestNGRunner" time="3.013">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:27
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Italiano" language link                   # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "it.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](13)" classname="org.wikipedia.runner.TestNGRunner" time="10.884">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:26
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Italiano" language link                   # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "it.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](14)" classname="org.wikipedia.runner.TestNGRunner" time="2.427">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:27
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "日本語" language link                        # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "ja.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](14)" classname="org.wikipedia.runner.TestNGRunner" time="4.557">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:28
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "日本語" language link                        # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "ja.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ Given I am on the Wikipedia Login page                                                         # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I enter "N0nExistentUser123" in the Username field                                        # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_username_field(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](14)" classname="org.wikipedia.runner.TestNGRunner" time="10.761">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:27
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "日本語" language link                        # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "ja.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](15)" classname="org.wikipedia.runner.TestNGRunner" time="0.825">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:28
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ And I enter "AnyP4ssw0rd" in the Password field                                                # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_password_field(java.lang.String)
-  ✔ When I click on the "中文" language link                         # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "zh.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-  ✔ And I click the Login button                                                                   # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see an error message "Incorrect username or password entered. Please try again." # org.wikipedia.stepdefs.F1_StepDef.i_should_see_an_error_message(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                              # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](15)" classname="org.wikipedia.runner.TestNGRunner" time="1.071">
-    <system-out><![CDATA[
-@Login @Validation @Login
-Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:65
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ When I click on the "中文" language link                         # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "zh.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](15)" classname="org.wikipedia.runner.TestNGRunner" time="10.686">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:28
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "中文" language link                         # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "zh.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](16)" classname="org.wikipedia.runner.TestNGRunner" time="0.897">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:29
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ When I click on the "Português" language link                  # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "pt.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](16)" classname="org.wikipedia.runner.TestNGRunner" time="3.323">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:30
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Português" language link                  # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "pt.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](16)" classname="org.wikipedia.runner.TestNGRunner" time="10.596">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:29
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Português" language link                  # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "pt.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](17)" classname="org.wikipedia.runner.TestNGRunner" time="1.432">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:30
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Polski" language link                     # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "pl.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](17)" classname="org.wikipedia.runner.TestNGRunner" time="2.865">
-    <system-out><![CDATA[
-@homepage @regression @dropdown
-Scenario: Verify "Read Wikipedia in your language" dropdown        # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:34
-Return BrowserName from Runner:edge
-BrowserName from DriverUtil is edge
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Polski" language link                     # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "pl.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify language links on the Wikipedia home page&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](17)" classname="org.wikipedia.runner.TestNGRunner" time="11.823">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:30
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Polski" language link                     # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_language_link(java.lang.String)
-  ✔ Then I should be navigated to the "pl.wikipedia.org" page      # org.wikipedia.stepdefs.F2_StepDef.i_should_be_navigated_to_the_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify &quot;Read Wikipedia in your language&quot; dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](18)" classname="org.wikipedia.runner.TestNGRunner" time="2.845">
-    <system-out><![CDATA[
-@homepage @regression @dropdown
-Scenario: Verify "Read Wikipedia in your language" dropdown        # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:34
-Return BrowserName from Runner:chrome
-BrowserName from DriverUtil is chrome
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ Given I am on the Wikipedia Login page                                                 # org.wikipedia.stepdefs.F1_StepDef.i_am_on_the_wikipedia_login_page()
-  ✔ When I leave the "Username" field empty                                                # org.wikipedia.stepdefs.F1_StepDef.i_leave_the_field_empty(java.lang.String)
-  ✔ And I enter "AnyPassword" in the "Password" field                                      # org.wikipedia.stepdefs.F1_StepDef.i_enter_in_the_field(java.lang.String,java.lang.String)
-  ✔ When I click on the "Read Wikipedia in your language" dropdown # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_dropdown(java.lang.String)
-  ✔ And I click the Login button                                                           # org.wikipedia.stepdefs.F1_StepDef.i_click_the_login_button()
-  ✔ Then I should see a browser validation message for the "Username" field                # org.wikipedia.stepdefs.F1_StepDef.i_should_see_a_browser_validation_message_for_the_field(java.lang.String)
-  ✔ And I should still be on the Wikipedia Login page                                      # org.wikipedia.stepdefs.F1_StepDef.i_should_still_be_on_the_wikipedia_login_page()
-  ✔ Then I should see the full list of available languages         # org.wikipedia.stepdefs.F2_StepDef.i_should_see_the_full_list_of_available_languages()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify &quot;Read Wikipedia in your language&quot; dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](18)" classname="org.wikipedia.runner.TestNGRunner" time="1.672">
-    <system-out><![CDATA[
-@Login @Validation @Login
-Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F1_LoginTest.feature:66
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Then I should see the full list of available languages         # org.wikipedia.stepdefs.F2_StepDef.i_should_see_the_full_list_of_available_languages()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify &quot;Read Wikipedia in your language&quot; dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](18)" classname="org.wikipedia.runner.TestNGRunner" time="11.107">
-    <system-out><![CDATA[
-@homepage @regression @dropdown
-Scenario: Verify "Read Wikipedia in your language" dropdown        # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:34
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                          # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I click on the "Read Wikipedia in your language" dropdown # org.wikipedia.stepdefs.F2_StepDef.i_click_on_the_dropdown(java.lang.String)
-  ✔ Then I should see the full list of available languages         # org.wikipedia.stepdefs.F2_StepDef.i_should_see_the_full_list_of_available_languages()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify all available languages in the search dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](19)" classname="org.wikipedia.runner.TestNGRunner" time="5.02">
-    <system-out><![CDATA[
-@homepage @smoke @languages
-Scenario Outline: Verify language links on the Wikipedia home page # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:21
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Then each language option should be selectable              # org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify all available languages in the search dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](19)" classname="org.wikipedia.runner.TestNGRunner" time="5.72">
-    <system-out><![CDATA[  ✔ Then each language option should be selectable              # org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify all available languages in the search dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](19)" classname="org.wikipedia.runner.TestNGRunner" time="18.071">
-    <failure message="Not all languages were selectable" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Not all languages were selectable
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable(F2_StepDef.java:54)
-	at ✽.each language option should be selectable(file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:42)
-]]></failure>
-    <system-out><![CDATA[
-@homepage @regression @dropdown @full
-Scenario: Verify all available languages in the search dropdown # file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:40
-Return BrowserName from Runner:firefox
-BrowserName from DriverUtil is firefox
-  ✔ Given I am on the Wikipedia home page                       # org.wikipedia.stepdefs.F2_StepDef.i_am_on_the_wikipedia_home_page()
-  ✔ When I collect all the languages from the search dropdown   # org.wikipedia.stepdefs.F2_StepDef.i_collect_all_the_languages_from_the_search_dropdown()
-  ✘ Then each language option should be selectable              # org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable()
-        java.lang.AssertionError: Not all languages were selectable
-        	at org.junit.Assert.fail(Assert.java:89)
-        	at org.junit.Assert.assertTrue(Assert.java:42)
-        	at org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable(F2_StepDef.java:54)
-        	at ✽.each language option should be selectable(file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:42)
-]]></system-out>
+  <testcase name="runScenario[&quot;Verify all available languages in the search dropdown&quot;, &quot;Wikipedia Home Page Languages and Dropdowns&quot;](19)" classname="org.wikipedia.runner.TestNGRunner" time="0.0">
+    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeTest on method setBrowser but has not been marked @Optional or defined&#10;"/>
   </testcase>
 </testsuite>

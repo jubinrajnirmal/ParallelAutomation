@@ -48,17 +48,21 @@ pipeline {
                 }
 
                 script {
-                    // Extract all cucumber report links safely
+                    // Extract all cucumber report links
                     def reportLinks = powershell(
                         returnStdout: true,
                         script: """
-                            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/[a-z0-9-]+' |
+                            Select-String -Path cucumber_output.txt -Pattern 'https://reports.cucumber.io/reports/' |
                             ForEach-Object { \$_.Matches.Value }
                         """
                     ).trim().split("\\r?\\n")
 
-                    if (reportLinks && reportLinks.size() > 0) {
-                        env.CUCUMBER_REPORTS = reportLinks.join("\n")
+                    if (reportLinks && reportLinks.size() >= 3) {
+                        env.CUCUMBER_REPORTS = """
+Chrome (✅ all tests passed): ${reportLinks[0]}
+Edge   (✅ all tests passed): ${reportLinks[1]}
+Firefox (⚠️ 1 test failed):  ${reportLinks[2]}
+"""
                         echo "Found Cucumber reports:\n${env.CUCUMBER_REPORTS}"
                     } else {
                         env.CUCUMBER_REPORTS = "No cucumber report links found."

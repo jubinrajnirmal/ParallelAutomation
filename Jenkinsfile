@@ -10,28 +10,28 @@ pipeline {
     }
 
     stages {
-		
-		stage('Check Selenium Grid') {
-		            steps {
-		                script {
-		                    try {
-		                        def gridCheck = bat(
-		                            script: 'powershell -Command "(Invoke-WebRequest -Uri http://localhost:4444/status).Content"',
-		                            returnStdout: true
-		                        ).trim()
-		
-		                        if (gridCheck.contains('"ready":true')) {
-		                            echo '✅ Selenium Grid is UP and ready'
-		                        } else {
-		                            echo '⚠️ Selenium Grid responded but not ready'
-		                        }
-		                    } catch (Exception e) {
-		                        echo '⚠️ Could not reach Selenium Grid at http://localhost:4444/status — continuing anyway'
-		                    }
-		                }
-		            }
-		        }
-		        
+
+        stage('Check Selenium Grid') {
+            steps {
+                script {
+                    try {
+                        def gridCheck = bat(
+                            script: 'powershell -Command "(Invoke-WebRequest -Uri http://localhost:4444/status).Content"',
+                            returnStdout: true
+                        ).trim()
+
+                        if (gridCheck.contains('"ready":true')) {
+                            echo '✅ Selenium Grid is UP and ready'
+                        } else {
+                            echo '⚠️ Selenium Grid responded but not ready'
+                        }
+                    } catch (Exception e) {
+                        echo '⚠️ Could not reach Selenium Grid at http://localhost:4444/status — continuing anyway'
+                    }
+                }
+            }
+        }
+
         stage('Checkout Code') {
             steps {
                 git branch: 'main', url: 'https://github.com/jubinrajnirmal/ParallelAutomation.git'
@@ -65,7 +65,7 @@ pipeline {
                 }
             }
         }
-// ✅ closing stages
+    }   // ✅ THIS was missing — closing stages
 
     post {
         always {

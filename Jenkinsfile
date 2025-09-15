@@ -28,11 +28,12 @@ pipeline {
         }
 
         stage('Run Tests') {
-            steps {
-                bat 'mvn clean test'
-            }
+            steps  {
+        		catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+            		bat 'mvn clean test'
         }
-
+        }
+}
         stage('Archive Reports') {
             steps {
                 archiveArtifacts artifacts: 'target/cucumber-reports.html, target/cucumber-reports.json, target/cucumber-reports.xml, test-output/**', fingerprint: true

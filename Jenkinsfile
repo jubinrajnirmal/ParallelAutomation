@@ -10,24 +10,28 @@ pipeline {
     }
 
     stages {
-
-        stage('Start Selenium Grid') {
-            steps {
-                script {
-                    try {
-                        def response = httpRequest url: 'http://localhost:4444/status'
-                        if (response.status == 200 && response.content.contains('"ready":true')) {
-                            echo '✅ Selenium Grid is up and ready'
-                        } else {
-                            error('❌ Selenium Grid is not ready')
-                        }
-                    } catch (Exception e) {
-                        error("❌ Could not reach Selenium Grid at http://localhost:4444/status")
-                    }
-                }
-            }
-        }
-
+		
+		stage('Check Selenium Grid') {
+		            steps {
+		                script {
+		                    try {
+		                        def gridCheck = bat(
+		                            script: 'powershell -Command "(Invoke-WebRequest -Uri http://localhost:4444/status).Content"',
+		                            returnStdout: true
+		                        ).trim()
+		
+		                        if (gridCheck.contains('"ready":true')) {
+		                            echo '✅ Selenium Grid is UP and ready'
+		                        } else {
+		                            echo '⚠️ Selenium Grid responded but not ready'
+		                        }
+		                    } catch (Exception e) {
+		                        echo '⚠️ Could not reach Selenium Grid at http://localhost:4444/status — continuing anyway'
+		                    }
+		                }
+		            }
+		        }
+		        
         stage('Checkout Code') {
             steps {
                 git branch: 'main', url: 'https://github.com/jubinrajnirmal/ParallelAutomation.git'
@@ -61,24 +65,7 @@ pipeline {
                 }
             }
         }
-
-        stage('Archive Reports') {
-            steps {
-                archiveArtifacts artifacts: 'target/cucumber-reports.html, target/cucumber-reports.json, target/cucumber-reports.xml, test-output/**', fingerprint: true
-            }
-        }
-
-        stage('Publish HTML Report') {
-            steps {
-                publishHTML([allowMissing: false,
-                             alwaysLinkToLastBuild: true,
-                             keepAll: true,
-                             reportDir: 'target',
-                             reportFiles: 'cucumber-reports.html',
-                             reportName: 'Cucumber HTML Report'])
-            }
-        }
-    } // ✅ closing stages
+// ✅ closing stages
 
     post {
         always {

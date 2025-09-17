@@ -1,6 +1,7 @@
 package org.wikipedia.hooks;
 import java.time.Duration;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.wikipedia.pages.HomePage;
 import org.wikipedia.pages.LoginPage;
@@ -40,7 +41,8 @@ public class Hooks {
 
 		    RemoteWebDriver d = getDriver();
 		    d.manage().window().maximize();
-		    d.manage().timeouts().implicitlyWait(Duration.ofSeconds(0)); // use explicit waits
+		    d.manage().window().setSize(new Dimension(1440, 900));
+		    d.manage().timeouts().implicitlyWait(Duration.ofSeconds(1)); 
 
 		    // Create page objects for this thread
 		    MAIN_PAGE.set(new MainPage(d));

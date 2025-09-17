@@ -16,18 +16,9 @@ Feature: Wikipedia Home Page Languages and Dropdowns
         When I click on the "<language>" language link
     	Then I should be navigated to the "<languagePage>" page
     	
-    	Examples:
-    	 	| language   | languagePage       |
-  			| English    | en.wikipedia.org   |
-		  	| Русский    | ru.wikipedia.org   |
-  			| Français   | fr.wikipedia.org   |
-			| Deutsch    | de.wikipedia.org   |
-			| Español    | es.wikipedia.org   |
-  			| Italiano   | it.wikipedia.org   |
-  			| 日本語      | ja.wikipedia.org   |
-  			| 中文        | zh.wikipedia.org   |
-  			| Português  | pt.wikipedia.org   |
-  			| Polski     | pl.wikipedia.org   |
+    	Examples: # fromExcel: TestData/LoginData.xlsx|HomeLanguages
+	    | language | languagePage |
+    	# rows injected by generator
 	      
 
 	@regression @dropdown    

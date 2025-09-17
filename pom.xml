@@ -72,10 +72,17 @@
 			<version>7.28.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.5</version>
+		</dependency>
 
 	</dependencies>
 	<build>
 		<plugins>
+
+			<!-- Surefire (your existing) -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -89,6 +96,44 @@
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
+
+			<!-- Run ExcelExamplesGenerator BEFORE tests (after test sources
+			compile) -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.5.0</version>
+				<executions>
+					<execution>
+						<id>generate-features-from-excel</id>
+						<!-- our generator is in src/test/java, so run after
+						test classes compile -->
+						<phase>test-compile</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>
+								org.wikipedia.utilities.ExcelExamplesGenerator</mainClass>
+							<classpathScope>test</classpathScope>
+							<systemProperties>
+								<systemProperty>
+									<key>excel.in</key>
+									<value>src/test/resources/Features</value>
+								</systemProperty>
+								<systemProperty>
+									<key>excel.out</key>
+									<value>
+										src/test/resources/Features/_generated</value>
+								</systemProperty>
+							</systemProperties>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	</build>
+
+
 </project>

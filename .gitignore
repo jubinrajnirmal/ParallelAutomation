@@ -1,0 +1,7 @@
+# Excel temp files
+~*.xlsx
+~$*.xlsx
+
+# Generated feature copies
+src/test/resources/Features/_generated/
+target/

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="252.063" tests="19" skipped="0" failures="1" errors="0" timestamp="2025-09-15T18:17:44.432692400Z">
-<testcase classname="User Login on Wikipedia" name="Navigate to the login page from the main page" time="19.435">
+<testsuite name="Cucumber" time="193.33" tests="17" skipped="0" failures="0" errors="0" timestamp="2025-09-17T16:21:28.521143400Z">
+<testcase classname="User Login on Wikipedia" name="Navigate to the login page from the main page" time="16.802">
 <system-out><![CDATA[
 Given I am on the Wikipedia main page.......................................passed
 When I click the Login link in the header...................................passed
@@ -10,7 +10,7 @@ And I should see the Password field.........................................pass
 And I should see the Login button...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login on Wikipedia" name="Successful login with valid credentials" time="18.131">
+<testcase classname="User Login on Wikipedia" name="Successful login with valid credentials" time="23.493">
 <system-out><![CDATA[
 Given I am on the Wikipedia Login page......................................passed
 When I enter the valid username.............................................passed
@@ -19,7 +19,7 @@ And I click the Login button................................................pass
 Then I should be logged in successfully.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login on Wikipedia" name="&quot;Keep me logged in&quot; checkbox functionality" time="14.555">
+<testcase classname="User Login on Wikipedia" name="&quot;Keep me logged in&quot; checkbox functionality" time="12.161">
 <system-out><![CDATA[
 Given I am on the Wikipedia Login page......................................passed
 When I check the "Keep me logged in" checkbox...............................passed
@@ -28,7 +28,7 @@ And When I uncheck the "Keep me logged in" checkbox.........................pass
 Then the "Keep me logged in" checkbox should not be selected................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with invalid credentials - #1.1" time="15.797">
+<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with invalid credentials - #1.1" time="12.529">
 <system-out><![CDATA[
 Given I am on the Wikipedia Login page......................................passed
 When I enter "SeleniumT3stUser" in the Username field.......................passed
@@ -38,7 +38,7 @@ Then I should see an error message "Incorrect username or password entered. Plea
 And I should still be on the Wikipedia Login page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with invalid credentials - #1.2" time="14.538">
+<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with invalid credentials - #1.2" time="12.421">
 <system-out><![CDATA[
 Given I am on the Wikipedia Login page......................................passed
 When I enter "N0nExistentUser123" in the Username field.....................passed
@@ -48,7 +48,7 @@ Then I should see an error message "Incorrect username or password entered. Plea
 And I should still be on the Wikipedia Login page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with empty fields for HTML5 validation erros - #1.1" time="15.407">
+<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with empty fields for HTML5 validation erros - #1.1" time="10.69">
 <system-out><![CDATA[
 Given I am on the Wikipedia Login page......................................passed
 When I leave the "Username" field empty.....................................passed
@@ -58,7 +58,7 @@ Then I should see a browser validation message for the "Username" field.....pass
 And I should still be on the Wikipedia Login page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with empty fields for HTML5 validation erros - #1.2" time="11.745">
+<testcase classname="User Login on Wikipedia" name="Unsuccessful login attempts with empty fields for HTML5 validation erros - #1.2" time="8.89">
 <system-out><![CDATA[
 Given I am on the Wikipedia Login page......................................passed
 When I leave the "Password" field empty.....................................passed
@@ -68,96 +68,74 @@ Then I should see a browser validation message for the "Password" field.....pass
 And I should still be on the Wikipedia Login page...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.1" time="10.843">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.1" time="9.802">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "English" language link.................................passed
 Then I should be navigated to the "en.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.2" time="11.846">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.2" time="9.437">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Русский" language link.................................passed
 Then I should be navigated to the "ru.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.3" time="11.644">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.3" time="9.803">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Français" language link................................passed
 Then I should be navigated to the "fr.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.4" time="11.436">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.4" time="9.543">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Deutsch" language link.................................passed
 Then I should be navigated to the "de.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.5" time="11.621">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.5" time="9.441">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Español" language link.................................passed
 Then I should be navigated to the "es.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.6" time="11.243">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.6" time="9.798">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Italiano" language link................................passed
 Then I should be navigated to the "it.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.7" time="10.779">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.7" time="9.331">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "日本語" language link.....................................passed
 Then I should be navigated to the "ja.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.8" time="10.51">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.8" time="9.811">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "中文" language link......................................passed
 Then I should be navigated to the "zh.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.9" time="10.932">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.9" time="9.263">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Português" language link...............................passed
 Then I should be navigated to the "pt.wikipedia.org" page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.10" time="10.503">
+<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify language links on the Wikipedia home page - #1.10" time="9.37">
 <system-out><![CDATA[
 Given I am on the Wikipedia home page.......................................passed
 When I click on the "Polski" language link..................................passed
 Then I should be navigated to the "pl.wikipedia.org" page...................passed
-]]></system-out>
-</testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify &quot;Read Wikipedia in your language&quot; dropdown" time="10.888">
-<system-out><![CDATA[
-Given I am on the Wikipedia home page.......................................passed
-When I click on the "Read Wikipedia in your language" dropdown..............passed
-Then I should see the full list of available languages......................passed
-]]></system-out>
-</testcase>
-<testcase classname="Wikipedia Home Page Languages and Dropdowns" name="Verify all available languages in the search dropdown" time="19.38">
-<failure type="java.lang.AssertionError" message="Not all languages were selectable">
-<![CDATA[java.lang.AssertionError: Not all languages were selectable
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.wikipedia.stepdefs.F2_StepDef.each_language_option_should_be_selectable(F2_StepDef.java:54)
-	at ✽.each language option should be selectable(file:///G:/ECLIPSE_PLAYGROUND/ParallelAutomation/src/test/resources/features/F2_HomePageFunctionality.feature:42)
-]]>
-</failure>
-<system-out><![CDATA[
-Given I am on the Wikipedia home page.......................................passed
-When I collect all the languages from the search dropdown...................passed
-Then each language option should be selectable..............................failed
 ]]></system-out>
 </testcase>
 </testsuite>

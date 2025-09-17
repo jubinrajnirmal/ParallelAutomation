@@ -45,11 +45,10 @@ Feature: User Login on Wikipedia
 	    Then I should see an error message "<expected_error_message>"
 	    And I should still be on the Wikipedia Login page
 	
-	    Examples:
-	      | username            | password          | expected_error_message                                    |
-	      | SeleniumT3stUser    | Inc0rrectPass     | Incorrect username or password entered. Please try again. |
-	      | N0nExistentUser123  | AnyP4ssw0rd       | Incorrect username or password entered. Please try again. |
-	     
+	    Examples: # fromExcel: TestData/LoginData.xlsx|InvalidLogins
+	      | username            | password          | expected_error_message |
+	      # rows will be injected here
+	      
 	
 	 @Validation @Login
 	 Scenario Outline: Unsuccessful login attempts with empty fields for HTML5 validation erros
@@ -60,12 +59,9 @@ Feature: User Login on Wikipedia
 	    Then I should see a browser validation message for the "<field_to_leave_empty>" field
 	    And I should still be on the Wikipedia Login page
 	
-	    Examples:
-	      | field_to_leave_empty | other_field_value | other_field_name |
-	      | Username             | AnyPassword       | Password         |
-	      | Password             | SeleniumTestUser  | Username         |
-
-
+	    Examples: # fromExcel: TestData/LoginData.xlsx|Validation
+    		| field_to_leave_empty | other_field_value | other_field_name |
+   			# rows injected by generator
 
 	    
 	    

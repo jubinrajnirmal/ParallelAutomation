@@ -93,6 +93,7 @@
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<cucumber.publish.enabled>true</cucumber.publish.enabled>
+						 <file.encoding>UTF-8</file.encoding>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>

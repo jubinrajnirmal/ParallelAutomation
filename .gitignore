@@ -5,3 +5,13 @@
 # Generated feature copies
 src/test/resources/Features/_generated/
 target/
+
+# other folders which are not required
+.settings/
+.vscode/ 
+target/
+test-output/
+Reports/
+.classpath
+.project
+src/test/resources/Features/_generated

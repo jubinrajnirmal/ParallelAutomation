@@ -75,6 +75,12 @@ Firefox :  ${reportLinks[2]}
 
     post {
         always {
+			 // publish JUnit/Cucumber XML (lets Jenkins mark build pass/fail & trends)
+      		junit 'target/**/*.xml'
+
+      		// archive HTML/JSON/XML reports so they show in build artifacts
+      		archiveArtifacts artifacts: 'target/**/*.html, target/**/*.json, target/**/*.xml', fingerprint: true
+
             emailext(
                 to: 'jubinrajnirmal10@gmail.com',
                 subject: "Automation Report - Build ${currentBuild.fullDisplayName} [${currentBuild.currentResult}]",
